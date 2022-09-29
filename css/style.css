@@ -1,0 +1,69 @@
+/* COMMOND */
+:root {
+    --grey: #1F1F1F;
+    --blue: #3A6DE7;
+    --light-grey: #BEBCBB;
+    --dark-blue: #161C3B;
+    --red: #CD3D0F;
+    --lavish-white: #D9DADC;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* COLOR */
+
+.my-bg-grey {
+    background-color: var(--grey);
+}
+
+.my-bg-light-grey {
+    background-color: var(--light-grey);
+}
+
+.my-bg-dark-blue {
+    background-color: var(--dark-blue);
+}
+
+.my-bg-blue {
+    background-color: var(--blue);
+}
+
+.my-bg-red {
+    background-color: var(--red);
+}
+
+/* MARGIN & PADDING */
+
+/* HERO */
+
+.my-bg-image {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 60vh;
+}
+
+
+
+@media screen and (min-width:576px) {
+
+    .my-display-none-sm {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+
+    .my-display-block-lg {
+        display: block;
+    }
+
+}
