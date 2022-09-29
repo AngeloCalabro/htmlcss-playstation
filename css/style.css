@@ -6,6 +6,7 @@
     --dark-blue: #161C3B;
     --red: #CD3D0F;
     --lavish-white: #D9DADC;
+    --white: #fff
 }
 
 body {
@@ -38,6 +39,11 @@ img {
     background-color: var(--red);
 }
 
+/* BTN */
+.btn-danger:hover {
+    background-color: rgb(161, 48, 11) !important;
+}
+
 /* MARGIN & PADDING */
 
 /* HERO */
@@ -50,7 +56,34 @@ img {
     min-height: 60vh;
 }
 
+.my-bg-image-2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 60vh;
+}
 
+/* CAROSEL */
+.caro-item {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.caro-item:hover {
+    transform: translate(0, -10%);
+    border: 2px solid var(--white);
+    box-shadow: 0 0 0 0px var(--white), 0 0 0 1.5px var(--blue);
+    border-radius: 10px;
+}
+
+footer img.sie {
+    width: 150px;
+}
+
+footer img.globe {
+    width: 20px;
+}
 
 @media screen and (min-width:576px) {
 
@@ -60,7 +93,16 @@ img {
 
 }
 
+@media screen and (min-width:768px) {
+
+    .my-display-block-md {
+        display: block;
+    }
+}
+
 @media screen and (min-width:992px) {
+
+
 
     .my-display-block-lg {
         display: block;

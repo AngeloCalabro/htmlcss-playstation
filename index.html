@@ -21,12 +21,14 @@
 
 <body>
     <!-- HEADER -->
-    <header>
+    <header class="mb-5">
         <div class="bg-black">
             <div class="col-1 ms-auto p-1">
                 <img src="./img/sony_logo.svg" alt="logo">
             </div>
         </div>
+
+        <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg bg-light sticky-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="./img/play_logo.svg" alt="logo"></a>
@@ -138,6 +140,8 @@
                 </div>
             </div>
         </nav>
+
+        <!-- HERO -->
         <hero id="hero-1">
             <div class="container-fluid d-flex my-bg-image align-items-end">
                 <div class="col-lg-4 text-white px-3 py-5">
@@ -152,33 +156,33 @@
             <div class="bg-white container-fluid">
                 <div class="row my-3 g-3">
                     <div class="col-sm-6 col-md-4 col-lg-2">
-                        <div class="rounded-3 overflow-hidden">
-                            <img src="./img/returnal-listing-thumb-01-ps5.jpg" alt="card">
+                        <div class="rounded-3 overflow-hidden caro-item">
+                            <img class="my-active" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="card">
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-2">
-                        <div class="rounded-3 overflow-hidden">
-                            <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="card">
+                        <div class="rounded-3 overflow-hidden caro-item">
+                            <img class="my-active" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="card">
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-2">
-                        <div class="rounded-3 overflow-hidden">
-                            <img src="./img/returnal-listing-thumb-01-ps5.jpg" alt="card">
+                        <div class="rounded-3 overflow-hidden caro-item">
+                            <img class="my-active" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="card">
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-2">
-                        <div class="rounded-3 overflow-hidden">
-                            <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="card">
+                        <div class="rounded-3 overflow-hidden caro-item">
+                            <img class="my-active" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="card">
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-2">
-                        <div class="rounded-3 overflow-hidden">
-                            <img src="./img/returnal-listing-thumb-01-ps5.jpg" alt="card">
+                        <div class="rounded-3 overflow-hidden caro-item">
+                            <img class="my-active" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="card">
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-2">
-                        <div class="rounded-3 overflow-hidden">
-                            <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="card">
+                        <div class="rounded-3 overflow-hidden caro-item">
+                            <img class="my-active" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="card">
                         </div>
                     </div>
                 </div>
@@ -187,37 +191,262 @@
     </header>
 
     <!-- MAIN -->
-    <main>
-        <section id="carosel" class="container-fluid">
-            carosel
+    <main class="mb-5">
+
+        <!-- SECTION CAROSEL -->
+        <section id="carosel" class="container-fluid mb-3">
+            <div class="text-center">
+                <h6 class="text-uppercase text-primary fw-bold">Play has no limits</h6>
+                <h1 class="fw-bold">Ecco la PlayStation 5</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, perspiciatis.</p>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-lg-6">
+                    <h1 class="fw-bold">Console PlayStation 5</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, perspiciatis.</p>
+                    <a href="#" class="btn btn-primary rounded-5">Maggiori informazioni</a>
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <img src="./img/playstation-5-thumb.png" alt="playstation">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-md-4 col-lg">
+                    <img src="./img/playstation-5-thumb.png" alt="playstation">
+                    <p class="text-center">Console PS5</p>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg">
+                    <img src="./img/joypad-thumb.png" alt="joypad">
+                    <p class="text-center">Controller wirless Dualsense&#8482;</p>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg">
+                    <img src="./img/headset-thumb.png" alt="headset">
+                    <p class="text-center">Cuffie wireless con microfono <span class="text-uppercase">pulse</span>
+                        3&#8482;</p>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg">
+                    <img src="./img/remote-thumb.png" alt="remote">
+                    <p class="text-center">Telecomando Media</p>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg">
+                    <img src="./img/camera-thumb.jpg" alt="camera">
+                    <p class="text-center">Telecamera <span class="text-uppercase">hd</span></p>
+                </div>
+            </div>
         </section>
-        <section id="hero-2" class="container-fluid">
-            hero-2
+
+        <!-- SECTION HERO-2 -->
+        <section id="hero-2">
+            <div class="container-fluid d-flex my-bg-image-2 align-items-end">
+                <div class="col-lg-4 text-white px-3 py-5">
+                    <img class="w-50" src="./img/it-takes-two-logo.png" alt="returnal logo">
+                    <h1 class="py-4 fw-normal">Un'avventura coperativa selvaggia ti attende</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit temporibus vitae dicta earum
+                        blanditiis recusandae ea beatae sapiente? Necessitatibus aliquid nobis eaque rem id?</p>
+                    <button class="btn btn-danger my-bg-red rounded-5">Acquista ora</button>
+                </div>
+            </div>
         </section>
-        <section id="new-play" class="container-fluid my-bg-grey text-white">
-            new-play
+
+        <!-- SECTION NEW-PLAY -->
+        <section id="new-play" class="container-fluid my-bg-grey text-white mb-3">
+            <h1>Nuove uscite</h1>
+            <h3>Giochi incredibili per <span class="text-uppercase">PS4</span> e <span class="text-uppercase">PS5</span>
+                disponibili ora</h3>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawks">
+                    <p>Tony Hawks Pro Skater 1 + 2</p>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="joypad">
+                    <p>Crash Bandicoot 4 Its About Time</p>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawks">
+                    <p>Tony Hawks Pro Skater 1 + 2</p>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="joypad">
+                    <p>Crash Bandicoot 4 Its About Time</p>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawks">
+                    <p>Tony Hawks Pro Skater 1 + 2</p>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="joypad">
+                    <p>Crash Bandicoot 4 Its About Time</p>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawks">
+                    <p>Tony Hawks Pro Skater 1 + 2</p>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="joypad">
+                    <p>Crash Bandicoot 4 Its About Time</p>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawks">
+                    <p>Tony Hawks Pro Skater 1 + 2</p>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="joypad">
+                    <p>Crash Bandicoot 4 Its About Time</p>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawks">
+                    <p>Tony Hawks Pro Skater 1 + 2</p>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2">
+                    <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="joypad">
+                    <p>Crash Bandicoot 4 Its About Time</p>
+                </div>
+            </div>
         </section>
-        <section id="explore" class="container-fluid">
-            explore
+
+        <!-- SECTION EXPLORE -->
+        <section id="explore" class="container-fluid mb-3">
+            <div class="text-center">
+                <h1 class="fw-bold">Esplora PlayStation&#174; 4</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, perspiciatis.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <img src="./img/ps4-slim-homepage-image-block.jpg" alt="playstation4">
+                    <h2>PlayStation 4</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, quo.</p>
+                    <a href="#" class="btn btn-primary rounded-5">Scopri di più</a>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <img src="./img/double11-202010-tw-psvr.jpg" alt="VR">
+                    <h2>PlayStation <span class="text-uppercase">vr</span></h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, quo.</p>
+                    <a href="#" class="btn btn-primary rounded-5">Scopri di più</a>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <img src="./img/dualshock-4-listing-thumb.jpg" alt="joypad">
+                    <h2>Accessori</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, quo.</p>
+                    <a href="#" class="btn btn-primary rounded-5">Scopri di più</a>
+                </div>
+            </div>
         </section>
-        <section id="play-plus" class="container-fluid">
-            play-plus
+
+        <!-- SECTION PLAY-PLUS -->
+        <section id="play-plus" class="container-fluid my-bg-light-grey mb-3">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-md-6">
+                    <img class="w-50" src="./img/ps-plus-logo.png" alt="Logo Plus">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam molestias fugit illo quasi at
+                        ducimus
+                        sed laboriosam officia facere quia?</p>
+                    <a href="#" class="btn btn-outline-primary rounded-5">Esplora PlayStation Plus</a>
+                </div>
+                <div class="my-display-none-sm my-display-block-md col-md-6">
+                    <img src="./img/ps-plus-april-monthly-games-featured-image-block.png" alt="plus-april">
+                </div>
+            </div>
         </section>
-        <section id="sales" class="container-fluid">
-            sales
+
+        <!-- SECTION SALES -->
+        <section id="sales" class="container-fluid text-center mb-3">
+            <div class="container-fluid">
+                <h1>Nuovi sconti sul PlayStation Store</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In officia nihil quae quidem voluptatum vero
+                    accusamus consequuntur, tempora exercitationem quam.</p>
+                <div class="container-fluid row g-5">
+                    <div class="col-sm-12 col-md-4">
+                        <img src="./img/playstation-store-games-under-20-spotlight.jpg" alt="">
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <img src="./img/playstation-store-golden-week-sale-spotlight.jpg" alt="">
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <img src="./img/playstation-store-free-to-play-spotlight.png" alt="">
+                    </div>
+                </div>
+            </div>
         </section>
-        <section id="play-now" class="container-fluid my-bg-dark-blue text-white">
-            play-now
+
+        <!-- SECTION PLAY-NOW -->
+        <section id="play-now" class="container-fluid my-bg-dark-blue text-white mb-3">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-md-6">
+                    <img class="w-50" src="./img/ps-now-logo-two-column.png" alt="Logo Now">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam molestias fugit illo quasi at
+                        ducimus
+                        sed laboriosam officia facere quia?</p>
+                    <a href="#" class="btn btn-light rounded-5">Esplora PlayStation Now</a>
+                </div>
+                <div class="my-display-none-sm my-display-block-md col-md-6">
+                    <img src="./img/ps-now-april-featured-image-block.png" alt="plus-april">
+                </div>
+            </div>
         </section>
-        <section id="social" class="container-fluid">
-            social
+
+        <!-- SECTION SOCIAL -->
+        <section id="social" class="container-fluid mb-3">
+            <h1 class="text-center">Seguici sui social media</h1>
+            <div class="m-auto">
+                <div class="row g-4">
+                    <div class="col-sm-6 col-md-3">
+                        <a href="#"><img src="./img/twitter.jpg" alt="twitter"></a>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <a href="#"><img src="./img/facebook.jpg" alt="facebook"></a>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <a href="#"><img src="./img/instagram.jpg" alt="instagram"></a>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <a href="#"><img src="./img/youtube.png" alt="youtube"></a>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
     <!-- FOOTER -->
     <footer class="my-bg-blue text-white">
-        <div>top-footer</div>
-        <div>bottom-footer</div>
+        <div>
+            <img src="./img/ps-footer.svg" alt="logo">
+        </div>
+        <div>
+            <img class="globe" src="./img/language-globe.svg" alt="language">
+            <span>Country / Region: Italy</span>
+        </div>
+        <div>
+            <ul class="navbar-nav">
+                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
+            </ul>
+            <ul class="navbar-nav">
+                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
+            </ul>
+            <ul class="navbar-nav">
+                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
+            </ul>
+        </div>
+        <div>
+            <img class="sie" src="./img/sie-logo.svg" alt="logo">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur laudantium totam, hic voluptatum itaque
+                aut ipsum! Optio nam quidem, deserunt aliquid adipisci dolores doloremque ex in, nobis perferendis
+                aperiam quas accusamus, quam at facilis nisi autem placeat mollitia harum recusandae ullam voluptas
+                excepturi omnis natus. Autem beatae hic magnam libero.</p>
+        </div>
 
     </footer>
 
