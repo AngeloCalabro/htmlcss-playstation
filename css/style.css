@@ -74,16 +74,17 @@ img {
 }
 
 /* CAROSEL */
-.caro-item {
-    transition: 0.5s;
+.border-item {
+    transition: .5s;
     cursor: pointer;
 }
 
-.caro-item:hover {
+.border-item:hover {
     transform: translate(0, -10%);
     border: 2px solid var(--white);
-    box-shadow: 0 0 0 0px var(--white), 0 0 0 1.5px var(--blue);
+    box-shadow: 0 0 0 0px var(--white), 0 0 0 3px var(--blue);
     border-radius: 10px;
+    position: absolute;
 }
 
 /* FOOTER */
@@ -122,4 +123,14 @@ footer img.sie {
 
 .line-underline:hover div.opacity-75 {
     opacity: 1 !important;
+}
+
+.image-rounded {
+    transition: all .5s ease-in-out;
+}
+
+.image-rounded:hover {
+    border-radius: 50%;
+    scale: 1.1 !important;
+    transform: translate(0%, -5%);
 }
