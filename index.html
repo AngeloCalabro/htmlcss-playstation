@@ -122,12 +122,12 @@
                     </li>
 
                     <!-- BUTTON accedi -->
-                    <li class="nav-item px-2 my-display-none-sm my-display-block-lg">
+                    <li class="nav-item px-2 d-none d-lg-block">
                         <a href="#" class="btn btn-dark rounded-5">Accedi</a href="#">
                     </li>
 
                     <!-- LENS -->
-                    <li class="nav-item my-display-none-sm my-display-block-lg">
+                    <li class="nav-item d-none d-lg-block">
                         <form class="d-flex" role="search">
                             <a href="">
                                 <img class="w-50" src="./img/lens.svg" alt="">
@@ -249,7 +249,7 @@
         </section>
 
         <!-- SECTION NEW-PLAY -->
-        <section id="new-play" class="container-fluid my-bg-grey text-white mb-3">
+        <section id="new-play" class="container-fluid my-bg-grey text-white">
             <h1>Nuove uscite</h1>
             <h3>Giochi incredibili per <span class="text-uppercase">PS4</span> e <span class="text-uppercase">PS5</span>
                 disponibili ora</h3>
@@ -412,42 +412,74 @@
 
     <!-- FOOTER -->
     <footer class="my-bg-blue text-white">
-        <div>
-            <img class="ps-footer" src="./img/ps-footer.svg" alt="logo">
-        </div>
-        <div>
-            <img class="globe" src="./img/language-globe.svg" alt="language">
-            <span>Country / Region: Italy</span>
-        </div>
-        <div>
-            <ul class="navbar-nav">
-                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
-                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
-                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
-                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
-                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
-            </ul>
-            <ul class="navbar-nav">
-                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
-                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
-                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
-                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
-                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
-                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
-                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
-            </ul>
-            <ul class="navbar-nav">
-                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
-                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
-                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
-            </ul>
-        </div>
-        <div>
-            <img class="sie" src="./img/sie-logo.svg" alt="logo">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur laudantium totam, hic voluptatum itaque
-                aut ipsum! Optio nam quidem, deserunt aliquid adipisci dolores doloremque ex in, nobis perferendis
-                aperiam quas accusamus, quam at facilis nisi autem placeat mollitia harum recusandae ullam voluptas
-                excepturi omnis natus. Autem beatae hic magnam libero.</p>
+        <div class="container-fluid px-3">
+            <div class="row">
+                <div class="col-12 col-lg-6 pt-5 pb-3">
+                    <div class="py-3">
+                        <img class="ps-footer" src="./img/ps-footer.svg" alt="logo">
+                    </div>
+                    <div class="py-3">
+                        <img class="globe" src="./img/language-globe.svg" alt="language">
+                        <span>Country / Region: Italy</span>
+                    </div>
+                </div>
+                <div class="row col-lg-6 m-auto py-5 px-3">
+                    <div class="col-12 col-md-4">
+                        <ul class="navbar-nav">
+                            <li class="list-unstyle"><a class="nav-item text-decoration-none text-white" href="#">Link
+                                    footer n</a></li>
+                            <li class="list-unstyle"><a class="nav-item text-decoration-none text-white" href="#">Link
+                                    footer n</a></li>
+                            <li class="list-unstyle"><a class="nav-item text-decoration-none text-white" href="#">Link
+                                    footer n</a></li>
+                            <li class="list-unstyle"><a class="nav-item text-decoration-none text-white" href="#">Link
+                                    footer n</a></li>
+                            <li class="list-unstyle"><a class="nav-item text-decoration-none text-white" href="#">Link
+                                    footer n</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <ul class="navbar-nav">
+                            <li class="list-unstyle"><a class="nav-item text-decoration-none text-white" href="#">Link
+                                    footer n</a></li>
+                            <li class="list-unstyle"><a class="nav-item text-decoration-none text-white" href="#">Link
+                                    footer n</a></li>
+                            <li class="list-unstyle"><a class="nav-item text-decoration-none text-white" href="#">Link
+                                    footer n</a></li>
+                            <li class="list-unstyle"><a class="nav-item text-decoration-none text-white" href="#">Link
+                                    footer n</a></li>
+                            <li class="list-unstyle"><a class="nav-item text-decoration-none text-white" href="#">Link
+                                    footer n</a></li>
+                            <li class="list-unstyle"><a class="nav-item text-decoration-none text-white" href="#">Link
+                                    footer n</a></li>
+                            <li class="list-unstyle"><a class="nav-item text-decoration-none text-white" href="#">Link
+                                    footer n</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <ul class="navbar-nav">
+                            <li class="list-unstyle"><a class="nav-item text-decoration-none text-white" href="#">Link
+                                    footer n</a></li>
+                            <li class="list-unstyle"><a class="nav-item text-decoration-none text-white" href="#">Link
+                                    footer n</a></li>
+                            <li class="list-unstyle"><a class="nav-item text-decoration-none text-white" href="#">Link
+                                    footer n</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 pt-1 pb-5">
+                    <img class="sie" src="./img/sie-logo.svg" alt="logo">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur laudantium totam, hic
+                        voluptatum
+                        itaque
+                        aut ipsum! Optio nam quidem, deserunt aliquid adipisci dolores doloremque ex in, nobis
+                        perferendis
+                        aperiam quas accusamus, quam at facilis nisi autem placeat mollitia harum recusandae ullam
+                        voluptas
+                        excepturi omnis natus. Autem beatae hic magnam libero.</p>
+                </div>
+            </div>
         </div>
 
     </footer>
