@@ -77,12 +77,16 @@ img {
     border-radius: 10px;
 }
 
-footer img.sie {
-    width: 150px;
+footer img.ps-footer {
+    width: 100px;
 }
 
 footer img.globe {
     width: 20px;
+}
+
+footer img.sie {
+    width: 150px;
 }
 
 @media screen and (min-width:576px) {
@@ -98,11 +102,13 @@ footer img.globe {
     .my-display-block-md {
         display: block;
     }
+
+    .my-display-none-md {
+        display: none;
+    }
 }
 
 @media screen and (min-width:992px) {
-
-
 
     .my-display-block-lg {
         display: block;

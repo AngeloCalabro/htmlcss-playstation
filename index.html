@@ -21,181 +21,180 @@
 
 <body>
     <!-- HEADER -->
-    <header class="mb-5">
-        <div class="bg-black">
-            <div class="col-1 ms-auto p-1">
-                <img src="./img/sony_logo.svg" alt="logo">
+
+    <div class="bg-black">
+        <div class="col-1 ms-auto p-1">
+            <img src="./img/sony_logo.svg" alt="logo">
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./img/play_logo.svg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav d-flex flex-grow-1">
+                    <li class="nav-item dropdown pe-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Giochi
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown pe-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Hardware
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown pe-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Servizi
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown pe-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Novit&aacute;
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown pe-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Fai acquisti
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Supporto
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="d-flex navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            My PlayStation
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- BUTTON accedi -->
+                    <li class="nav-item px-2 my-display-none-sm my-display-block-lg">
+                        <a href="#" class="btn btn-dark rounded-5">Accedi</a href="#">
+                    </li>
+
+                    <!-- LENS -->
+                    <li class="nav-item my-display-none-sm my-display-block-lg">
+                        <form class="d-flex" role="search">
+                            <a href="">
+                                <img class="w-50" src="./img/lens.svg" alt="">
+                            </a>
+                        </form>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <hero id="hero-1" class="py-5">
+        <div class="container-fluid d-flex my-bg-image align-items-end">
+            <div class="col-lg-4 text-white px-3 py-5">
+                <img class="w-50" src="./img/returnal-hero-banner-logo.png" alt="returnal logo">
+                <h1 class="py-4 fw-normal">Rompi il cerchio</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit temporibus vitae dicta earum
+                    blanditiis recusandae ea beatae sapiente? Necessitatibus aliquid nobis eaque rem id?</p>
+                <button class="btn btn-danger my-bg-red rounded-5">Acquista ora</button>
             </div>
         </div>
 
-        <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg bg-light sticky-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="./img/play_logo.svg" alt="logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav d-flex flex-grow-1">
-                        <li class="nav-item dropdown pe-2">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Giochi
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown pe-2">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Hardware
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown pe-2">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Servizi
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown pe-2">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Novit&aacute;
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown pe-2">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Fai acquisti
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Supporto
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul class="d-flex navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                My PlayStation
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-
-                        <!-- BUTTON accedi -->
-                        <li class="nav-item px-2 my-display-none-sm my-display-block-lg">
-                            <a href="#" class="btn btn-dark rounded-5">Accedi</a href="#">
-                        </li>
-
-                        <!-- LENS -->
-                        <li class="nav-item my-display-none-sm my-display-block-lg">
-                            <form class="d-flex" role="search">
-                                <a href="">
-                                    <img class="w-50" src="./img/lens.svg" alt="">
-                                </a>
-                            </form>
-                        </li>
-                    </ul>
-
+        <div class="bg-white container-fluid">
+            <div class="row g-3 ">
+                <div class="col-6 col-sm-4 col-md-4 col-lg-2">
+                    <div class="rounded-3 overflow-hidden caro-item ">
+                        <img class="my-active" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="card">
+                    </div>
                 </div>
-            </div>
-        </nav>
-
-        <!-- HERO -->
-        <hero id="hero-1">
-            <div class="container-fluid d-flex my-bg-image align-items-end">
-                <div class="col-lg-4 text-white px-3 py-5">
-                    <img class="w-50" src="./img/returnal-hero-banner-logo.png" alt="returnal logo">
-                    <h1 class="py-4 fw-normal">Rompi il cerchio</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit temporibus vitae dicta earum
-                        blanditiis recusandae ea beatae sapiente? Necessitatibus aliquid nobis eaque rem id?</p>
-                    <button class="btn btn-danger my-bg-red rounded-5">Acquista ora</button>
+                <div class="col-6 col-sm-4 col-md-4 col-lg-2">
+                    <div class="rounded-3 overflow-hidden caro-item">
+                        <img class="my-active" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="card">
+                    </div>
                 </div>
-            </div>
-
-            <div class="bg-white container-fluid">
-                <div class="row my-3 g-3">
-                    <div class="col-sm-6 col-md-4 col-lg-2">
-                        <div class="rounded-3 overflow-hidden caro-item">
-                            <img class="my-active" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="card">
-                        </div>
+                <div class="col-6 col-sm-4 col-md-4 col-lg-2">
+                    <div class="rounded-3 overflow-hidden caro-item">
+                        <img class="my-active" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="card">
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-2">
-                        <div class="rounded-3 overflow-hidden caro-item">
-                            <img class="my-active" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="card">
-                        </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-4 col-lg-2">
+                    <div class="rounded-3 overflow-hidden caro-item">
+                        <img class="my-active" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="card">
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-2">
-                        <div class="rounded-3 overflow-hidden caro-item">
-                            <img class="my-active" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="card">
-                        </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-4 col-lg-2">
+                    <div class="rounded-3 overflow-hidden caro-item">
+                        <img class="my-active" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="card">
                     </div>
-                    <div class="col-sm-6 col-md-4 col-lg-2">
-                        <div class="rounded-3 overflow-hidden caro-item">
-                            <img class="my-active" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="card">
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-2">
-                        <div class="rounded-3 overflow-hidden caro-item">
-                            <img class="my-active" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="card">
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-4 col-lg-2">
-                        <div class="rounded-3 overflow-hidden caro-item">
-                            <img class="my-active" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="card">
-                        </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-4 col-lg-2">
+                    <div class="rounded-3 overflow-hidden caro-item">
+                        <img class="my-active" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="card">
                     </div>
                 </div>
             </div>
-        </hero>
-    </header>
+        </div>
+    </hero>
+
 
     <!-- MAIN -->
     <main class="mb-5">
 
         <!-- SECTION CAROSEL -->
-        <section id="carosel" class="container-fluid mb-3">
-            <div class="text-center">
+        <section id="carosel" class="container-fluid py-5">
+            <div class="text-center py-3">
                 <h6 class="text-uppercase text-primary fw-bold">Play has no limits</h6>
                 <h1 class="fw-bold">Ecco la PlayStation 5</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, perspiciatis.</p>
@@ -211,26 +210,27 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 col-md-4 col-lg">
+                <div class="col-4 col-sm-4 col-md">
                     <img src="./img/playstation-5-thumb.png" alt="playstation">
-                    <p class="text-center">Console PS5</p>
+                    <p class="text-center d-none d-md-block">Console PS5</p>
                 </div>
-                <div class="col-sm-4 col-md-4 col-lg">
+                <div class="col-4 col-sm-4 col-md">
                     <img src="./img/joypad-thumb.png" alt="joypad">
-                    <p class="text-center">Controller wirless Dualsense&#8482;</p>
+                    <p class="text-center d-none d-md-block">Controller wirless Dualsense&#8482;</p>
                 </div>
-                <div class="col-sm-4 col-md-4 col-lg">
+                <div class="col-4 col-sm-4 col-md">
                     <img src="./img/headset-thumb.png" alt="headset">
-                    <p class="text-center">Cuffie wireless con microfono <span class="text-uppercase">pulse</span>
+                    <p class="text-center d-none d-md-block">Cuffie wireless con microfono <span
+                            class="text-uppercase">pulse</span>
                         3&#8482;</p>
                 </div>
-                <div class="col-sm-4 col-md-4 col-lg">
+                <div class="col-4 col-sm-4 col-md">
                     <img src="./img/remote-thumb.png" alt="remote">
-                    <p class="text-center">Telecomando Media</p>
+                    <p class="text-center d-none d-md-block">Telecomando Media</p>
                 </div>
-                <div class="col-sm-4 col-md-4 col-lg">
+                <div class="col-4 col-sm-4 col-md">
                     <img src="./img/camera-thumb.jpg" alt="camera">
-                    <p class="text-center">Telecamera <span class="text-uppercase">hd</span></p>
+                    <p class="text-center d-none d-md-block">Telecamera <span class="text-uppercase">hd</span></p>
                 </div>
             </div>
         </section>
@@ -254,51 +254,51 @@
             <h3>Giochi incredibili per <span class="text-uppercase">PS4</span> e <span class="text-uppercase">PS5</span>
                 disponibili ora</h3>
             <div class="row">
-                <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="col-6 col-sm-4 col-lg-2">
                     <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawks">
                     <p>Tony Hawks Pro Skater 1 + 2</p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="col-6 col-sm-4 col-lg-2">
                     <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="joypad">
                     <p>Crash Bandicoot 4 Its About Time</p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="col-6 col-sm-4 col-lg-2">
                     <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawks">
                     <p>Tony Hawks Pro Skater 1 + 2</p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="col-6 col-sm-4 col-lg-2">
                     <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="joypad">
                     <p>Crash Bandicoot 4 Its About Time</p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="col-6 col-sm-4 col-lg-2">
                     <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawks">
                     <p>Tony Hawks Pro Skater 1 + 2</p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="col-6 col-sm-4 col-lg-2">
                     <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="joypad">
                     <p>Crash Bandicoot 4 Its About Time</p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="col-6 col-sm-4 col-lg-2">
                     <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawks">
                     <p>Tony Hawks Pro Skater 1 + 2</p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="col-6 col-sm-4 col-lg-2">
                     <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="joypad">
                     <p>Crash Bandicoot 4 Its About Time</p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="col-6 col-sm-4 col-lg-2">
                     <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawks">
                     <p>Tony Hawks Pro Skater 1 + 2</p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="col-6 col-sm-4 col-lg-2">
                     <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="joypad">
                     <p>Crash Bandicoot 4 Its About Time</p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="col-6 col-sm-4 col-lg-2">
                     <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawks">
                     <p>Tony Hawks Pro Skater 1 + 2</p>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="col-6 col-sm-4 col-lg-2">
                     <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="joypad">
                     <p>Crash Bandicoot 4 Its About Time</p>
                 </div>
@@ -306,7 +306,7 @@
         </section>
 
         <!-- SECTION EXPLORE -->
-        <section id="explore" class="container-fluid mb-3">
+        <section id="explore" class="container-fluid py-5">
             <div class="text-center">
                 <h1 class="fw-bold">Esplora PlayStation&#174; 4</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, perspiciatis.</p>
@@ -337,33 +337,35 @@
         <!-- SECTION PLAY-PLUS -->
         <section id="play-plus" class="container-fluid my-bg-light-grey mb-3">
             <div class="row align-items-center">
-                <div class="col-sm-12 col-md-6">
+                <div class="col-sm-12 col-md-6 py-5">
                     <img class="w-50" src="./img/ps-plus-logo.png" alt="Logo Plus">
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam molestias fugit illo quasi at
                         ducimus
                         sed laboriosam officia facere quia?</p>
-                    <a href="#" class="btn btn-outline-primary rounded-5">Esplora PlayStation Plus</a>
+                    <a href="#" class="btn bg-white text-primary border-white fw-bold rounded-5">Esplora PlayStation
+                        Plus</a>
                 </div>
-                <div class="my-display-none-sm my-display-block-md col-md-6">
+                <div class="d-none d-md-block col-md-6">
                     <img src="./img/ps-plus-april-monthly-games-featured-image-block.png" alt="plus-april">
                 </div>
             </div>
         </section>
 
         <!-- SECTION SALES -->
-        <section id="sales" class="container-fluid text-center mb-3">
-            <div class="container-fluid">
-                <h1>Nuovi sconti sul PlayStation Store</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In officia nihil quae quidem voluptatum vero
+        <section id="sales" class="container-fluid text-center py-5">
+            <div class="container g-3">
+                <h1 class="py-3">Nuovi sconti sul PlayStation Store</h1>
+                <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. In officia nihil quae quidem
+                    voluptatum vero
                     accusamus consequuntur, tempora exercitationem quam.</p>
-                <div class="container-fluid row g-5">
-                    <div class="col-sm-12 col-md-4">
+                <div class="row g-3">
+                    <div class="col-12 col-md-4">
                         <img src="./img/playstation-store-games-under-20-spotlight.jpg" alt="">
                     </div>
-                    <div class="col-sm-12 col-md-4">
+                    <div class="col-12 col-md-4">
                         <img src="./img/playstation-store-golden-week-sale-spotlight.jpg" alt="">
                     </div>
-                    <div class="col-sm-12 col-md-4">
+                    <div class="col-12 col-md-4">
                         <img src="./img/playstation-store-free-to-play-spotlight.png" alt="">
                     </div>
                 </div>
@@ -373,34 +375,34 @@
         <!-- SECTION PLAY-NOW -->
         <section id="play-now" class="container-fluid my-bg-dark-blue text-white mb-3">
             <div class="row align-items-center">
-                <div class="col-sm-12 col-md-6">
+                <div class="col-sm-12 col-md-6 py-5">
                     <img class="w-50" src="./img/ps-now-logo-two-column.png" alt="Logo Now">
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam molestias fugit illo quasi at
                         ducimus
                         sed laboriosam officia facere quia?</p>
                     <a href="#" class="btn btn-light rounded-5">Esplora PlayStation Now</a>
                 </div>
-                <div class="my-display-none-sm my-display-block-md col-md-6">
+                <div class="d-none d-md-block col-md-6">
                     <img src="./img/ps-now-april-featured-image-block.png" alt="plus-april">
                 </div>
             </div>
         </section>
 
         <!-- SECTION SOCIAL -->
-        <section id="social" class="container-fluid mb-3">
-            <h1 class="text-center">Seguici sui social media</h1>
-            <div class="col-8 m-auto">
+        <section id="social" class="container-fluid py-3">
+            <h1 class="text-center py-5">Seguici sui social media</h1>
+            <div class="col-md-11 col-lg-8 m-auto">
                 <div class="row g-4">
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-6 col-sm-3">
                         <a href="#"><img src="./img/twitter.jpg" alt="twitter"></a>
                     </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-6 col-sm-3">
                         <a href="#"><img src="./img/facebook.jpg" alt="facebook"></a>
                     </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-6 col-sm-3">
                         <a href="#"><img src="./img/instagram.jpg" alt="instagram"></a>
                     </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-6 col-sm-3">
                         <a href="#"><img src="./img/youtube.png" alt="youtube"></a>
                     </div>
                 </div>
@@ -411,7 +413,7 @@
     <!-- FOOTER -->
     <footer class="my-bg-blue text-white">
         <div>
-            <img src="./img/ps-footer.svg" alt="logo">
+            <img class="ps-footer" src="./img/ps-footer.svg" alt="logo">
         </div>
         <div>
             <img class="globe" src="./img/language-globe.svg" alt="language">
@@ -419,25 +421,25 @@
         </div>
         <div>
             <ul class="navbar-nav">
-                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
-                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
-                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
-                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
-                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
             </ul>
             <ul class="navbar-nav">
-                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
-                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
-                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
-                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
-                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
-                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
-                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
             </ul>
             <ul class="navbar-nav">
-                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
-                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
-                <li><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
+                <li class="list-unstyle"><a class="nav-item text-white" href="#">Link footer n</a></li>
             </ul>
         </div>
         <div>
