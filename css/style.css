@@ -87,19 +87,6 @@ img {
     position: absolute;
 }
 
-/* FOOTER */
-footer img.ps-footer {
-    width: 100px;
-}
-
-footer img.globe {
-    width: 20px;
-}
-
-footer img.sie {
-    width: 150px;
-}
-
 .active-line-blue:after {
     content: "";
     display: block;
@@ -133,4 +120,17 @@ footer img.sie {
     border-radius: 50%;
     scale: 1.1 !important;
     transform: translate(0%, -5%);
+}
+
+/* FOOTER */
+footer img.ps-footer {
+    width: 100px;
+}
+
+footer img.globe {
+    width: 20px;
+}
+
+footer img.sie {
+    width: 150px;
 }
